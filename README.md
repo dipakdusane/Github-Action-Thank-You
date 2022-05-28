@@ -1,4 +1,4 @@
-Github-Action :A way of saying thanki you
+Github-Action :A way of saying thank you!
 ===============================================================================
 Say thank you when someone makes a new Pull Request on your repository!
 
