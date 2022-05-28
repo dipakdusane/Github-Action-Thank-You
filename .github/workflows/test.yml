@@ -2,13 +2,13 @@ name: Test
 
 on:
   pull_request:
-  types:[opened]
+    types:[opened]
 
 jobs:
   test:
     runs-on:ubuntu_latest
     steps:
-    -uses: actions/checkout@v2
-    -uses: ./
+      -uses: actions/checkout@v2
+      -uses: ./
 
 
