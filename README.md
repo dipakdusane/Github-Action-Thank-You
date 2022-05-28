@@ -2,6 +2,8 @@ Thank You Action
 ===============================================================================
 Say thanks any time someone makes a new Pull Request on your repository!
 
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+
 
 ─────▄█▀█▄──▄███▄
 ────▐█░██████████▌
