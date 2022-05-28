@@ -2,9 +2,9 @@ Thank You Action
 ===============================================================================
 Say thanks any time someone makes a new Pull Request on your repository!
 
-<img src="https://media.giphy.com/media/397AvGzgLXkPSrbebe/giphy.gif" width="40" height="40" />
+<img src="https://media.giphy.com/media/397AvGzgLXkPSrbebe/giphy.gif" width="400" height="400" />
 
-https://giphy.com/gifs/ProBitExchange-yay-bear-dancing-397AvGzgLXkPSrbebe
+
 
 
 ─────▄█▀█▄──▄███▄
