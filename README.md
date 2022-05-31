@@ -5,7 +5,6 @@ Say thank you when someone makes a new Pull Request on your repository!
 Getting Started
 Create a Tenor API key and set it as a Secret on your GitHub repo
 
-Add a new GitHub Action workflow:
 name: Thank You
 
 on:
@@ -13,17 +12,16 @@ on:
     types: [opened]
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: ./
+  thanks:
+    runs-on: actions/checkout@v2
+    steps: ./
+      - uses: colbyfayock/thank-you-action@master
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           TENOR_TOKEN: ${{secrets.TENOR_TOKEN}}
           
           
-===============================================================================
+          
 <img src="https://media.giphy.com/media/397AvGzgLXkPSrbebe/giphy.gif" width="400" height="400" />
 
 
