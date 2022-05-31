@@ -15,7 +15,7 @@ jobs:
   thanks:
     runs-on: actions/checkout@v2
     steps: ./
-      - uses: colbyfayock/thank-you-action@master
+      - uses:
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           TENOR_TOKEN: ${{secrets.TENOR_TOKEN}}
