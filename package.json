@@ -3,27 +3,24 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-
   "scripts": {
     "build": "ncc build src/action.js -o dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tucky12/Github-Action-Thank-You.git"
+    "url": "git+https://github.com/dipakdusane/custom-action-pr.git"
   },
-  "author": "Ted",
+  "author": "Dipak Dusane",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Tucky12/Github-Action-Thank-You/issues"
+    "url": "https://github.com/dipakdusane/custom-action-pr/issues"
   },
-  "homepage": "https://github.com/Tucky12/Github-Action-Thank-You#readme",
+  "homepage": "https://github.com/colbyfayock/my-action-pull-request#readme",
   "dependencies": {
-    "@actions/core": "^1.8.2",
+    "@actions/core": "^1.9.0",
     "@actions/github": "^5.0.3",
     "@vercel/ncc": "^0.34.0",
     "node-fetch": "^2.6.1"
-    }
-
-    
+  }
 }
